@@ -2,7 +2,7 @@ include <stdio.h>
 #include <stdlib.h>
 #define SWAP(x, y, t) ((t) = (x), (x) = (y), (y) = (t))
 
-int partion(int list[], int left, int right) //do{}를 실행하고 while()가 true면 반복실행, while()가 false면 구문 탈출
+int partion(int list[], int left, int right)
 {
 	int pivot, temp;
 	int low, high;
